@@ -1,0 +1,7 @@
+{
+    "beautify.tabSize": 4,
+    "files.trimTrailingWhitespace": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "prettier.singleQuote": true
+}

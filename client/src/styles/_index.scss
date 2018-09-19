@@ -1,0 +1,9 @@
+@import '~@angular/material/theming';
+@import 'palette';
+
+$tz-theme-primary: mat-palette($tz-primary);
+$tz-theme-accent: mat-palette($tz-accent);
+$tz-theme-warn: mat-palette($mat-deep-orange, A200);
+$tz-light-theme: mat-light-theme($tz-theme-primary, $tz-theme-accent, $tz-theme-warn);
+
+@include angular-material-theme($tz-light-theme);
