@@ -1,20 +1,17 @@
 {
+    "extends": "../tslint.json",
     "rules": {
         "directive-selector": [
             true,
             "attribute",
-            "app",
+            "tz",
             "camelCase"
         ],
         "component-selector": [
             true,
             "element",
-            "app",
+            "tz",
             "kebab-case"
         ]
-    },
-    "quotemark": [
-        true,
-        "single"
-    ]
+    }
 }
